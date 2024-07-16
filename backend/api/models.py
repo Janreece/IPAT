@@ -1,0 +1,35 @@
+from django.db import models
+
+
+class Item(models.Model):
+    firstname = models.CharField(max_length=100,default='')
+    middlename = models.TextField(default='')
+    lastname = models.TextField(default='')
+    Address = models.TextField(default='')
+    Barangay= models.TextField(default='')
+    City= models.TextField(default='')
+    Postal_code= models.TextField(default='')
+    Region= models.TextField()
+    Religion= models.TextField(default='')
+    Gender= models.TextField(default='')
+    Age= models.TextField(default='')
+    Phone= models.TextField(default='')
+    Email= models.TextField(default='')
+    StudentID= models.TextField(default='')
+    Height= models.TextField(default='')
+    Weight= models.TextField(default='')
+    Place_of_Birth = models.TextField(default='')
+    Occupation= models.TextField(default='')
+    Course= models.TextField(default='')
+    Date_of_birth= models.TextField(default='')
+    Section= models.TextField(default='')
+    College= models.TextField(default='')
+    Subject= models.TextField(default='')
+    Nationality= models.TextField(default='')
+    School= models.TextField(default='')
+    TIN_ID= models.TextField(default='')
+    SSN = models.TextField(default='')
+    Secondary_School_name = models.TextField(default='')
+    Phil_Health_Number = models.TextField(default='')
+    def str(self):
+        return self.firstname
