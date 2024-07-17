@@ -1,0 +1,73 @@
+/* ItemList.css /
+
+/ Header Styles /
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 120 ; / Adds spacing below the header /
+}
+
+/ List Styles /
+ul {
+    list-style-type: none;
+    padding: px;
+    margin: 20px;
+}
+
+/ Item Styles /
+li {
+    background: #ffffff;
+    height: 10px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(138, 0, 0, 0.1);
+    display: table;
+    flex-direction: row;
+
+}
+
+
+li:nth-child(odd) {
+    background: #ffffff;
+}
+
+li > div {
+    margin-bottom: 1px; 
+}
+
+/ Button Styles /
+button1 {
+    font-size: 1.1em;
+    padding: 1px;
+    margin: 0; / Margin between buttons /
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 1px;
+    position: flex;
+}
+
+button1:hover {
+
+    background-color: #00c41a;
+}
+button {
+    font-size: 1.1em;
+    padding: 1px;
+    margin: 0; / Margin between buttons /
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 1px;
+    position: flex;
+}
+/ Button Hover Effect */
+button:hover {
+
+    background-color: #ff0000;
+}
